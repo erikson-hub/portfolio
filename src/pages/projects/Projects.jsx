@@ -7,7 +7,7 @@ const Projects = () => {
       {ProjectItems.map((ProjectItem) => (
         <article
           key={ProjectItem.id}
-          className='rounded-md bg-white dark:bg-[#2C353D] outline'>
+          className='rounded-md bg-white dark:bg-[#2C353D] border-[1px] border-[#FF6E30]'>
           <a href={ProjectItem.url} target='_blank'>
             <img
               src={ProjectItem.img}
