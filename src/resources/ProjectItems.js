@@ -10,11 +10,12 @@ export const ProjectItems = [
   },
   {
     id: 'landing',
-    name: 'Dota 2 Landing Page',
-    description: 'Coming Soon',
+    name: 'Gpt3 Landing Page',
+    description:
+      'Landing realizado a partir de un desafío de diseño web, aplicando metodología de nomenclatura BEM CSS, además de buenas prácticas para el diseñor responsivo',
     techs: ['Html', 'Css', 'JavasScript'],
-    url: 'test',
-    img: '/dota-2.webp',
+    url: 'https://github.com/erikson-hub/gpt3-landing',
+    img: '/gpt3.jpg',
   },
   {
     id: 'Heros App',

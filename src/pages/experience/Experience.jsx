@@ -11,6 +11,10 @@ const Experience = () => {
             <time className='mb-1 text-sm font-normal leading-none text-[#666666] dark:text-gray-300 '>
               {experience.date}
             </time>
+            <h2 className='text-lg font-GraphikRegular text-gray-700'>
+              {' '}
+              {experience.company}
+            </h2>
             <h3 className='text-lg font-semibold dark:text-[#FF6E30] mt-2'>
               {experience.position}
             </h3>
