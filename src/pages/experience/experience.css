@@ -1,0 +1,22 @@
+/*backup code for animations if the exp grows'
+
+/* @keyframes show {
+  from {
+    opacity: 0;
+    scale: 25%;
+  }
+  to {
+    opacity: 1;
+    scale: 100%;
+  }
+}
+
+.exp {
+  view-timeline-name: --exp;
+  view-timeline-axis: block;
+  animation-timeline: --exp;
+  animation-name: show;
+  animation-range: entry 25%, cover 40%;
+  animation-fill-mode: both;
+  animation-duration: 4s;
+} */

@@ -1,12 +1,13 @@
 import React from 'react';
 import { ExperienceItems } from '../../resources/ExperienceItems';
+import './experience.css';
 const Experience = () => {
   return (
     <ol className='relative border-s border-black dark:border-gray-200 mx-2 mt-4 animate-slide-right'>
       {ExperienceItems.map((experience) => {
         return (
-          <li key={experience.id} className='mb-10 ms-4'>
-            <div className='absolute w-3 h-3 bg-black dark:bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white '></div>
+          <li key={experience.id} className='mb-10 ms-4 exp mx-2'>
+            <div className='absolute w-3 h-3 bg-black dark:bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white'></div>
             <time className='mb-1 text-sm font-normal leading-none text-[#666666] dark:text-gray-300 '>
               {experience.date}
             </time>
